@@ -9,5 +9,6 @@ tasks:
         fallback_key: maven-repo-
         
     - run: mvn clean test
+  reat-job:
     - reports/junit: 
       - target/surefire-reports/TEST-*.xml
